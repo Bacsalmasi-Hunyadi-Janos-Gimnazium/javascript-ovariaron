@@ -1,5 +1,3 @@
-const hello=require("./hello");
+import assert from 'assert';
 
-test("kijavitja a hello.js-t",()=>{
-    expect(hello()).toBe("Hello");
-}); 
+assert.equal(1, 1);
