@@ -1,3 +1,3 @@
 var assert = require('assert');
 var hello=require("./hello")
-assert(hello()=="Hello");
+assert(hello(3,5)==5+3);
