@@ -1,3 +1,2 @@
-import assert from 'assert';
-
-assert.equal(1, 1);
+var assert = require('assert');
+assert(5 > 7);
